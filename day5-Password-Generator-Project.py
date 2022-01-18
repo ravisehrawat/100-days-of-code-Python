@@ -16,4 +16,4 @@ for y in range(0,nr_symbols):
 for z in range(0,nr_numbers):
     password.append(numbers[random.randint(0,len(numbers)-1)])
 password = ''.join(random.sample(password, len(password)))
-print("Here is your password"+password)
+print("Here is your password "+password)
